@@ -1,0 +1,28 @@
+<div>
+  <ul>
+    <li>
+      <mat-form-field>
+        <mat-select placeholder="Favorite food">
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            test {{ food.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </li>
+    <li>
+      <mat-slider class="example-margin"
+                  [disabled]="disabled"
+                  [invert]="invert"
+                  [max]="max"
+                  [min]="min"
+                  [step]="step"
+                  [thumb-label]="thumbLabel"
+                  [tick-interval]="tickInterval"
+                  [value]="value"
+                  [vertical]="vertical">
+      </mat-slider>
+    </li>
+  </ul>
+
+
+</div>

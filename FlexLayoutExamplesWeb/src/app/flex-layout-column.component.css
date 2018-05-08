@@ -1,0 +1,19 @@
+/*flex layout example*/
+
+.flex-container {
+  background-color: lightgoldenrodyellow;
+  height: 100%;
+}
+
+.flex-item1 {
+  background-color: lightgray;
+}
+
+.flex-item2 {
+  background-color: lightpink;
+}
+
+.flex-item3 {
+  background-color: lightblue;
+}
+
